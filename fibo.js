@@ -11,7 +11,7 @@ function clicar(){
     
 
     if(qnum <=2 ){
-        sequencia = qnum -1
+        sequencia = qnum - 1
     }else{
         for(var c=0; c<=qnum; c++){
             nextTerm = n1 + n2
@@ -20,8 +20,10 @@ function clicar(){
             n1 = n2
             n2 = nextTerm
     }
-        }
-        res.innerHTML = `A Sequência de Fibonacci até o termo <strong>${qnum}</strong> é:<br/><br/> ${sequencia}<br/> `
+      res.innerHTML = `A Sequência de Fibonacci até o termo <strong>${qnum}</strong> é:<br/><br/> ${sequencia}<br/> `
+    }
+    qnum = ''
+    qnum.focus()
+
 }
-   qnum.value = ''
-   qnum.focus()
+ 
