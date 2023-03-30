@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+background-color: #c08552;
+}
+h1{
+    text-align: center;
+    color: #f4f7be;
+}
+
+section{
+    font: normal 16pt Arial;
+    background-color: #f4f7be;
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+}
+#btn{
+    font: bold 12pt Arial;
+    border-radius: 8px;
+    padding: 8px;
+}
+#altura{
+    padding: 8px;
+}
+#peso{
+    padding: 8px;
+}
+footer{
+    font: bold 12pt Arial;
+    text-align: center;
+    font-style: italic;
+    color: #f4f7be;
+}
+
