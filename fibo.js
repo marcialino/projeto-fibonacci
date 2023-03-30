@@ -22,8 +22,7 @@ function clicar(){
     }
       res.innerHTML = `A Sequência de Fibonacci até o termo <strong>${qnum}</strong> é:<br/><br/> ${sequencia}<br/> `
     }
-    qnum = ''
-    qnum.focus()
+  
 
 }
  
