@@ -1,22 +1,24 @@
 @charset "UTF-8";
 
 body{
-background-color: #c08552;
+background-color: #3c6997;
 }
 h1{
     text-align: center;
-    color: #f4f7be;
+    color: #d8e4ff;
 }
 
 section{
-    font: normal 16pt Arial;
-    background-color: #f4f7be;
-    width: 500px;
+    font: normal 14pt Arial;
+    color: #3c6997;
+    background-color: #d8e4ff;
+    width: 800px;
     padding: 15px;
     margin: auto;
 }
 #btn{
     font: bold 12pt Arial;
+    color: #3c6997;
     border-radius: 8px;
     padding: 8px;
 }
