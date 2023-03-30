@@ -5,29 +5,27 @@ background-color: #3c6997;
 }
 h1{
     text-align: center;
-    color: #d8e4ff;
+    color: black;
 }
 
 section{
     font: normal 12pt Arial;
-    color: #3c6997;
+    color: black;
     background-color: #d8e4ff;
-    width: 800px;
+    width: 500px;
     padding: 15px;
     margin: auto;
 }
+#qnum{
+    padding: 8px;
+}
 #btn{
     font: bold 12pt Arial;
-    color: #3c6997;
+    color:black;
     border-radius: 8px;
     padding: 8px;
 }
-#altura{
-    padding: 8px;
-}
-#peso{
-    padding: 8px;
-}
+
 footer{
     font: bold 12pt Arial;
     text-align: center;

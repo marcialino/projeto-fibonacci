@@ -16,7 +16,7 @@ function clicar(){
         for(var c=0; c<=qnum; c++){
             nextTerm = n1 + n2
             sequencia.push(nextTerm)
-            
+           
             n1 = n2
             n2 = nextTerm
     }
