@@ -20,7 +20,7 @@ function clicar(){
             n1 = n2
             n2 = nextTerm
     }
-      res.innerHTML = `A Sequência de Fibonacci até o termo <strong>${qnum}</strong> é:<br/><br/> ${sequencia}<br/> `
+      res.innerHTML = `<p>A Sequência de Fibonacci até o termo <strong>${qnum}</strong> é:<br/><br/> ${sequencia}</p> `
     }
   
 
