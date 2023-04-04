@@ -7,8 +7,8 @@ function clicar(){
     var n1 = 0
     var n2 = 1
     var nextTerm = "" 
-    var sequencia = [0,1]
-    
+    var sequencia = [0, 1]
+   
 
     if(qnum <=2 ){
         sequencia = qnum - 1
@@ -19,10 +19,11 @@ function clicar(){
            
             n1 = n2
             n2 = nextTerm
+            
+        }
+     
     }
-      res.innerHTML = `<p> A Sequência de Fibonacci até o termo <strong>${qnum}</strong> é: <br/> <br/>${sequencia}</p> `
-    }
-  
-
+    res.innerHTML = "Sequência de Fibonacci : " + "<br>" + sequencia.join(', ') + "<br><br>"
+    
 }
  
